@@ -1,0 +1,9 @@
+[package]
+name = "screenshaver"
+version = "0.1.0"
+authors = ["Harald Niesche <harald@niesche.de>"]
+edition = "2018"
+
+
+[workspace]
+members = [ "screenshaver-ui/src-tauri", "screenshaver-collector"  ]

@@ -1,0 +1,12 @@
+[package]
+authors = ["Harald Niesche <harald@niesche.de>"]
+edition = "2018"
+name = "screenshaver-collector"
+version = "0.1.0"
+
+[dependencies]
+libc = "0.2.95"
+
+[dev-dependencies]
+bmp = "0.5.0"
+image = "0.23.14"
